@@ -9,7 +9,7 @@ const NewEntry = ({ addEntry }) => {
     evt.preventDefault()
     addEntry(category, entry)
   }
-
+  
   return (
     <>
       <h2>New Entry in {category} category</h2>
